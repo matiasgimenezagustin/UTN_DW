@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+/* Llamar por id */
+/* #title-style{
+    color: black;
+} */
+/* llamar al elemento body */
+body{
+    background-color: blue;
+    background-image: url("../fondo-clash.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* llamamos a la clase title */
+.title{
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    text-shadow: 5px 5px 5px black ;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-align: center;
+}
+
