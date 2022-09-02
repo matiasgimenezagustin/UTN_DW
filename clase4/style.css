@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    background-color: green;
+    text-align:center;
+}
+
+.caja{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 20px 50px;
+}
+.uno{
+    background-color: blue;
+}
+.dos{
+    background-color: yellow;
+}
+.tres{
+    background-color: red;
+}
+.cuatro{
+    background-color: blueviolet;
+}
+.cinco{
+    background-color: brown;
+}
+.seis{
+    background-color: aqua;
+}
+.siete{
+    background-color:coral;
+}
+.ocho{
+    background-color:darkmagenta;
+}
+.text{
+    font-size: 1.5rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.linksContainer{
+    background-color: rgb(255, 0, 0);
+    height: 70px;
+    text-align: end;
+    padding: 25px 5vh;
+}
+.linksContainer li{
+    display: inline-block;
+    margin-left: 20px;
+}
