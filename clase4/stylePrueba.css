@@ -1,0 +1,112 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+/* inicio etiquetas header */
+
+header {
+    background-color: rgb(255, 127, 80);
+    text-align: center;
+    position: sticky;
+    top: 0%;
+}
+nav{
+    display: inline-block;
+    width: 70%;
+    
+}
+
+
+
+.logoContainer{
+    display: inline-block;
+    width: 20%;
+}
+header nav ul li {
+    display: inline-block;
+}
+li a{
+    color: black;
+    border: solid 5px;
+    font-size: 20px;
+    font-style: italic;
+    background-color: rgb(220, 20, 60);
+}
+
+
+
+/* inicio etiquetas main */
+
+main {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+/* inicio etiquetas footer */
+footer {
+    margin: 0px;
+    padding: 40px;
+
+
+}
+
+
+
+
+/* clases de header */
+
+.logo_pagina {
+    position: relative;
+    max-width: 150px;
+    max-height: 75px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+
+    /* fin clas…
+[19:01, 2/9/2022] Tomas Alumno: text-align: center;
+    padding-top: 30px;
+    font-style: italic;
+    color: grey;
+
+}
+
+/* fin clases main  */
+
+/* clases footer */
+
+.logos_footer {
+
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+
+}
+
+.parrafo_footer {
+
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    color: black;
+}
+
+.footer_index {
+    text-align: center;
+}
+
+
+.mis_hr {
+    margin: 80px;
+
+}
+
+/* fin clases de footers */

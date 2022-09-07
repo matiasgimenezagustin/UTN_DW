@@ -1,0 +1,70 @@
+/* -----------------------------INDEX CSS------------------------------ */
+.body{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-rows: 100px 70px 800px 400px 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "header header header header"
+    "nav nav nav nav"
+    "main main main aside"
+    "seccion-1 seccion-2 seccion-3 aside"
+    "footer footer footer footer"
+    ;
+}
+
+.header{
+    background-color: aquamarine;
+    grid-area: header;
+    display: flex;
+    /* CUANDO EL FLEX DIRECTION ES ROW, el que ajusta en el eje X es justify-content */
+    /* CUANDO EL FLEX DIRECTION ES COLUMN, el que ajusta en el eje Y es Aling-items */
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+
+}  
+
+.logoContainerHeader{
+    display: flex;
+    align-items: center;
+}
+.buscador{
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+.buscador input{
+    width: 300px;
+}
+.nav{
+    background-color: rgb(100, 0, 0);
+    grid-area: nav;
+}
+.main{
+    background-color: brown;
+    grid-area: main;
+}
+.section{
+    
+}
+.section-1{
+    background-color: blue;
+    grid-area: seccion-1;
+}
+.section-2{
+    background-color: burlywood;
+    grid-area: seccion-2;
+}
+.section-3{
+    background-color: coral;
+    grid-area: seccion-3;
+}
+.aside{
+    background-color: darkcyan;
+    grid-area: aside;
+}
+.footer{
+    background-color: darkblue;
+    grid-area: footer;
+}
