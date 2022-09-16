@@ -1,0 +1,118 @@
+/* Normalize */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    list-style-type: none;
+}
+
+/* Navbar */
+.navbarContainer{
+    background-color: black;
+    color: white;
+    padding: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.navbar ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+/* COLUMNS = EJE Y */
+/* ROWS = EJE X */
+.navbar ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.titleContainer h1{
+    text-align: center;
+    margin-bottom: 7vh;
+    font-size: 3rem;
+}
+
+.formRegister{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    padding: 20vh 10% ;
+}
+
+.textContainerForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8vh;
+}
+
+.errorText{
+    color: #D97A84;
+    text-align: center;
+}
+
+.input{
+    padding: 10px 3px;
+    border: none;
+    border-bottom: 1px solid ;
+}
+
+.submit{
+    padding: 12px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    border: 1px solid white ;
+}
+
+.submit:hover{
+    transition: 0.5s all;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+.textContainerForm p a{
+    font-weight: bold;
+    color: #161614;
+}
+
+@media (min-width: 576px){
+    .navbarContainer{
+        flex-direction: row;
+    }
+    .navbar ul{
+        flex-direction: row;
+        gap: 10px;
+    }
+    .navbar ul li a {
+        padding: 5% 15%;
+    }
+}
+
+@media (min-width: 768px){
+
+    .logoContainer{
+        width: 40%;
+    }
+    .navbar{
+        width: 60%;
+    }
+    .navbarContainer{
+        padding: 25px;
+    }
+}

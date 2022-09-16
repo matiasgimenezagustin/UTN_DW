@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbarContainer">
+        <div class="logoContainer">
+            <h2>
+                Pagina-Fachera.com
+            </h2>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Register</a></li>
+                <li><a href="">LogIn</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="titleContainer" >
+        <h1>Regístrate</h1>
+    </div>
+    <main class="main">
+        <form action="" class="formRegister">
+            <input type="text" placeholder="Nombre" name="name" id="name" required class="input"/>
+            <input type="text" placeholder="Apellido" name="lastname" id="lastname" class="input"/>
+            <input type="email" name="email" id="email" placeholder="Email" required class="input" />
+            <input type="password" name="password" id="password" placeholder="Contraseña" required class="input" />
+
+            <input type="submit" value="Regístrate" class="submit"/>
+
+        </form>
+        <div class="textContainerForm">
+            <p>¿Ya eres miembro? <a href="#">Inicia tu sesión</a></p>
+            <p class="errorText">Si se produce un error al completar el formulario aparecerá un mensaje aquí</p>
+        </div>
+    </main>
+</body>
+</html>
