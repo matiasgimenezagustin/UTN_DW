@@ -68,3 +68,15 @@ body{
     font-weight: bold;
     color: #161614;
 }
+
+/* 
+
+
+SON medidas relativas, como porcentaje pero toman como referencia siempre al tamaño de la pantalla disponible
+
+
+vh = view heigth (altura del eje y)
+
+vw = view width (anchura del eje x)
+
+*/
