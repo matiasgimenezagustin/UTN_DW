@@ -1,0 +1,15 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+nav ul li a{
+    color: black;
+}
