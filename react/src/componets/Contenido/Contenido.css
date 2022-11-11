@@ -1,0 +1,12 @@
+.itemListContainer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10vh 15vw;
+    gap: 3vw;
+}
+
+.itemListContainer div{
+    width: 400px;
+    height: 500px;
+    background-color: brown;
+}

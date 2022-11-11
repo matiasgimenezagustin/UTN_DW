@@ -1,4 +1,6 @@
 import React from 'react'
+import { Button } from 'react-bootstrap'
+import { Link, NavLink } from 'react-router-dom'
 import "./Navbar.css"
 export default function Navbar({tituloPagina, color}) {
   return (
@@ -6,13 +8,15 @@ export default function Navbar({tituloPagina, color}) {
         <h2>{tituloPagina}</h2>
         <ul>
             <li>
-                <a href='#'>contacto</a>
+                <NavLink to="/red">
+                    Ir a modo rojo
+                </NavLink>
             </li>
             <li>
-                <a href='#'>contacto</a>
+                <Button> Hola</Button>
             </li>
             <li>
-                <a href='#'>contacto</a>
+                <NavLink to="/">Ir a productos</NavLink>
             </li>
         </ul>
         
